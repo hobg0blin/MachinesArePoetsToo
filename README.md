@@ -11,7 +11,7 @@ A simple way of generating random text strings with p5 and a text corpus taken f
 
 ## Tracery
 
-[Tracery](http://tracery.io/) is a JavaScript library used to create “grammars”: basically a top-level sentence structure then sets of words that meet each sentence component. We’ll use [Allison Parrish](https://www.decontextualize.com/)’s p5 example [here](https://editor.p5js.org/allison.parrish/sketches/ByfvClyTg)
+[Tracery](http://tracery.io/) is a JavaScript library used to create “grammars”: basically a top-level sentence structure then sets of words that meet each sentence component. We’ll use [Allison Parrish](https://www.decontextualize.com/)’s p5 example [here](https://editor.p5js.org/allison.parrish/sketches/ByfvClyTg).
 
 ## Word vectors with ml5
 
@@ -35,7 +35,11 @@ Code samples are located in the `rita` folder. You can also play with a p5 sketc
 ## Resources
 
 #### “Simple” Stuff
+[How To Make A Dadaist Poem](https://www.writing.upenn.edu/~afilreis/88v/tzara.html)
+
 [Botnik](https://botnik.org/apps/writer/?source=92f3bdc2396ae56487ae6b34df5effc3) - a predictive keyboard generator.
+
+[Dadaist NLP text from in-class exercise](https://docs.google.com/document/d/1naZepmap0vkanRLAX_ytP53oynT3Zm3j9L4m3ub4iT0/edit?usp=sharing)
 
 [ConceptNet, a semantic network](http://conceptnet.io)
 
