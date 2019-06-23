@@ -9,6 +9,7 @@ function preload() {
 
 function setup() {
   createCanvas(400, 400);
+  // tell rita we're not interested in words like "the, a, of" and to ignore cases/punctuation
   var params = {
     ignoreStopWords: true,
     ignoreCase: true,
@@ -35,7 +36,6 @@ function draw() {
   fill(255);
   noStroke();
   //show all the nouns
-  console.log('nouns: ', nouns)
   text(nouns.join(' '), 10, 10, width - 20,
     height - 20);
 }
