@@ -47,6 +47,8 @@ Code samples are located in the `rita` folder. You can also play with a p5 sketc
 
 [Free AIML Bots](https://github.com/pandorabots/Free-AIML)
 
+[Runway ML](https://runwayml.com/) - basically PhotoShop for AI - plug and play machine learning with minimal setup. Currently in free and open beta!
+
 #### Markov Chains
 
 [A visual explanation of Markov chains](http://setosa.io/ev/markov-chains/)
