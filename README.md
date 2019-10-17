@@ -25,7 +25,7 @@ If you want to mess around with the examples, you may find its [documentation](h
 
 These examples are made with Rita’s “full” lexicon - if you get into doing more serious work with it, you may want [a smaller version](https://rednoise.org/rita/download.php).
 
-Code samples are located in the `rita` folder. You can also play with a p5 sketch for Markov chains [here](https://editor.p5js.org/bront/sketches/Cf0WltgW7).
+Code samples are located in the `rita` folder. A few of them are also online: [intro showing how to extract parts of speech](https://editor.p5js.org/bront/sketches/BbritBXTT), [rhyme generator](https://editor.p5js.org/bront/sketches/FXYKtd0EC), [Markov chains](https://editor.p5js.org/bront/sketches/Cf0WltgW7).
 
 ## LSTM (CharRNN)
 
@@ -76,6 +76,10 @@ Code samples are located in the `rita` folder. You can also play with a p5 sketc
 #### Data Gathering And Prep
 
 You can use the python script `clean_text.py` to quickly remove nonalphanumeric characters from a file. Simply type `python clean_text.py {your_file_name}` in your working directory.
+
+[Project Gutenberg](https://www.gutenberg.org/) - hella books.
+
+Libgen - The Pirate Bay for books. I’m not linking here because they change URLs constantly, but look hard and you’ll find it. There’s a scraper for it in the post linked below.
 
 [My quick and dirty web scraping resources](https://medium.com/@brentbailey/a-brief-guide-to-finding-missing-data-ac0a4cb93fa1) - contains links to a couple potentially useful scrapers I’ve written, plus a guide to cracking DRM protection if you’d like to get a protected corpus (fOr ReSeArcH pUrpOseS OnLy).
 
