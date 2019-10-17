@@ -1,5 +1,4 @@
 //All examples adapted from Allison Parrish's intro to Rita: https://creative-coding.decontextualize.com/intro-to-ritajs/
-//
 var lines;
 var nouns = [];
 

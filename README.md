@@ -63,7 +63,6 @@ Code samples are located in the `rita` folder. You can also play with a p5 sketc
 [Publicly available nlp datasets](https://github.com/niderhoff/nlp-datasets) - if you don’t want to deal with making your own, there are tons out there!
 
 
-
 [Recurrent Neural Networks Tutorial](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/) - the most beginner-friendly explanation of RNNs I’ve seen
 
 [The Unreasonable Effectiveness Of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) - really useful intro to RNNs
@@ -72,11 +71,17 @@ Code samples are located in the `rita` folder. You can also play with a p5 sketc
 
 [GPT-2](https://github.com/openai/gpt-2) - source code for GPT-2
 
+[Can A Machine Write For The New Yorker?](https://www.newyorker.com/magazine/2019/10/14/can-a-machine-learn-to-write-for-the-new-yorker) - article on GPT-2 and the future of writing.
+
 #### Data Gathering And Prep
 
+You can use the python script `clean_text.py` to quickly remove nonalphanumeric characters from a file. Simply type `python clean_text.py {your_file_name}` in your working directory.
 
-
-[My quick and dirty web scraping resources](https://medium.com/@brentbailey/a-brief-guide-to-finding-missing-data-ac0a4cb93fa1) - contains links to a couple potentially useful scrapers I’ve written, plus a guide to cracking DRM protection if you’d like to get a protected corpus.
+[My quick and dirty web scraping resources](https://medium.com/@brentbailey/a-brief-guide-to-finding-missing-data-ac0a4cb93fa1) - contains links to a couple potentially useful scrapers I’ve written, plus a guide to cracking DRM protection if you’d like to get a protected corpus (fOr ReSeArcH pUrpOseS OnLy).
 
 [Effectively Pre-Processing Text Data](https://towardsdatascience.com/effectively-pre-processing-the-text-data-part-1-text-cleaning-9ecae119cb3e)
 
+
+#### Other Fun Stuff
+
+[NaNoGenMo](https://nanogenmo.github.io/) - national novel generation month. Every November. Generate a novel!
