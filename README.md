@@ -31,6 +31,12 @@ Code samples are located in the `rita` folder. A few of them are also online: [i
 
 [CharRNN](https://ml5js.org/reference/api-charRNN/) is a LSTM (Long Short-Term Memory) neural network available in the ml5 library. RNNs are, uh, hard to explain, but there’s more information in the slides and resources. You can find code samples in the `char-rnn` folder, or play with a model I trained on James Baldwin [here](https://brondle.github.io/baldwin-rnn/).
 
+## Transformers (GPT-2)
+
+Transformers are even harder to explain! You can read more about them [here](https://towardsdatascience.com/transformers-141e32e69591).
+
+The easiest way to train your own GPT-2 model is with [Runway](https://runwayml.com/). If you want to get closer to the metal, you can use Max Woolf’s [Colab Notebook](https://colab.research.google.com/drive/1VLG8e7YSEwypxU-noRNhsv5dW4NfTGce#scrollTo=H7LoMj4GA4n__) or [GPT-2-simple python package](https://github.com/minimaxir/gpt-2-simple).
+
 
 ## Resources
 
