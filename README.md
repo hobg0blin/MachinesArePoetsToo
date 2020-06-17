@@ -7,7 +7,9 @@ This repo contains resources for learning about a small set of the myriad avilab
 For some of the code samples (especially the ml5 stuff), it’s easiest if you have Python installed because running them in the p5 web editor gets tricky. Don’t worry, you don’t have to learn Python for this workshop! We’ll just be using it to run a local server. If you do have Python installed, just run `python -m SimpleHTTPServer -8000` (for Python 2) or `python -m http.server -8000` (for Python 3). From there, navigate to `localhost:8000` in your browser (all work best in Chrome).
 
 ## Basic Javascript Text Generation
-A simple way of generating random text strings with p5 and a text corpus taken from the works of James Baldwin: [p5 sketch](https://editor.p5js.org/bront/sketches/AD2S1JkDh).
+A simple way of generating random text strings with p5 and an Amiri Baraka poem: [p5 sketch](https://editor.p5js.org/brondle/sketches/nvSxWVJS3)
+
+And a slightly more complicated one that loads an external text corpus taken from the works of James Baldwin: [p5 sketch](https://editor.p5js.org/brondle/sketches/p6caUhGel).
 
 ## Tracery
 
@@ -25,7 +27,10 @@ If you want to mess around with the examples, you may find its [documentation](h
 
 These examples are made with Rita’s “full” lexicon - if you get into doing more serious work with it, you may want [a smaller version](https://rednoise.org/rita/download.php).
 
-Code samples are located in the `rita` folder. A few of them are also online: [intro showing how to extract parts of speech](https://editor.p5js.org/bront/sketches/BbritBXTT), [rhyme generator](https://editor.p5js.org/bront/sketches/FXYKtd0EC), [Markov chains](https://editor.p5js.org/bront/sketches/Cf0WltgW7).
+Code samples are located in the `rita` folder. A few of them are also online if you have issues running them locally:
+- [intro showing how to extract parts of speech](https://editor.p5js.org/bront/sketches/BbritBXTT)
+- [rhyme generator](https://editor.p5js.org/bront/sketches/FXYKtd0EC)
+- [Markov chains](https://editor.p5js.org/bront/sketches/Cf0WltgW7).
 
 ## LSTM (CharRNN)
 
@@ -84,6 +89,10 @@ The easiest way to train your own GPT-2 model is with [Runway](https://runwayml.
 You can use the python script `clean_text.py` to quickly remove nonalphanumeric characters from a file. Simply type `python clean_text.py {your_file_name}` in your working directory.
 
 [Project Gutenberg](https://www.gutenberg.org/) - hella books.
+
+[Gutenberg-dammit](https://github.com/aparrish/gutenberg-dammit) - A download of everything on Project Gutenberg.
+
+[Gutenberg-poetry](https://github.com/aparrish/gutenberg-poetry-corpus) - The above, but for poetry.
 
 Libgen - The Pirate Bay for books. I’m not linking here because they change URLs constantly, but look hard and you’ll find it. There’s a scraper for it in the post linked below.
 
