@@ -84,9 +84,8 @@ The easiest way to train your own GPT-2 model is with [Runway](https://runwayml.
 
 [Can A Machine Write For The New Yorker?](https://www.newyorker.com/magazine/2019/10/14/can-a-machine-learn-to-write-for-the-new-yorker) - article on GPT-2 and the future of writing.
 
-#### Data Gathering And Prep
 
-You can use the python script `clean_text.py` to quickly remove nonalphanumeric characters from a file. Simply type `python clean_text.py {your_file_name}` in your working directory.
+#### Text Resources
 
 [Project Gutenberg](https://www.gutenberg.org/) - hella books.
 
@@ -96,7 +95,15 @@ You can use the python script `clean_text.py` to quickly remove nonalphanumeric 
 
 Libgen - The Pirate Bay for books. I’m not linking here because they change URLs constantly, but look hard and you’ll find it. There’s a scraper for it in the post linked below.
 
+### Data Gathering and Preparation
+
+Inside this very GitHub, you can use the python script `clean_text.py` to quickly remove nonalphanumeric characters from a file. Simply type `python clean_text.py {your_file_name}` in your working directory. This script is a handy little way to get started with text manipulation in Python.
+
 [My quick and dirty web scraping resources](https://medium.com/@brentbailey/a-brief-guide-to-finding-missing-data-ac0a4cb93fa1) - contains links to a couple potentially useful scrapers I’ve written, plus a guide to cracking DRM protection if you’d like to get a protected corpus (fOr ReSeArcH pUrpOseS OnLy).
+
+[My intro to web scraping with scrapy](https://github.com/brondle/webscraping4good)
+
+[An are.na channel dedicated to web scraping](https://github.com/brondle/webscraping4good)
 
 [Effectively Pre-Processing Text Data](https://towardsdatascience.com/effectively-pre-processing-the-text-data-part-1-text-cleaning-9ecae119cb3e)
 
